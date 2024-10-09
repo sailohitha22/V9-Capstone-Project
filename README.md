@@ -1,4 +1,3 @@
-# V9-Capstone-Project
 # Problem Statement
 Utilizing ZYNQ 7000 SOC for automated plant diesease detection
 
@@ -30,33 +29,72 @@ to centralized servers, speeds up reaction times, and increases system resilienc
 dependability in various field conditions.
 # Literature Survey
 # Paper-1
-Title-Automated Leaf Disease Detection Using ZYNQ FPGA with CNN Acceleration (2023)
+Title- Automated Leaf Disease Detection Using ZYNQ FPGA with CNN Acceleration (2023)
 
 Methodology	
--Designed a CNN-based leaf disease detection system using the ZYNQ FPGA to accelerate the convolution operations for real-time analysis.
+- Designed a CNN-based leaf disease detection system using the ZYNQ FPGA to accelerate the convolution operations for real-time analysis.
   
 Significance
--Enhances the accuracy and speed of disease detection while keeping power consumption low, suitable for remote agricultural areas.
+- Enhances the accuracy and speed of disease detection while keeping power consumption low, suitable for remote agricultural areas.
   
 Research Gaps
 - Focuses on leaf diseases only, and scalability for multi-crop environments or integration with IoT systems is not addressed.
 
 Diseases
-Cercospora leaf spot, black rot, mosaic virus
+- Cercospora leaf spot, black rot, mosaic virus
 
 # Paper-2
-Title-Rice plant disease detection(2014)
+Title- Real-Time Image Processing on FPGA for Crop Disease Detection (2022)
 
 Methodology
-- Color Space Features: RGB and HSV for feature extraction
-- Classification: ANN with back-propagation algorithm
+- The system leverages the ZYNQ SoC to perform real-time image processing for disease detection in crops, employing OpenCV and hardware accelerators.
 
 Significance
-- Comprehensive approach using multiple color spaces and ANN back-propagation, enhancing the accuracy of rice disease detection.
+- Highlights the potential for real-time, large-scale deployment in agricultural fields due to the speed of hardware-accelerated image processing techniques on the FPGA.
 
 Research Gaps
-- Focused primarily on color-based features, potentially overlooking other significant features like shape and texture.
-- No comparison with other classifiers like SVM or decision trees
+- Lacks the use of advanced AI models for better disease recognition and is not tested on diverse plant species and disease categories.
+
+Diseases
+- Anthracnose, fusarium wilt, leaf blight
 
 # Paper-3
+Title- Implementation of Plant Disease Detection Using Deep Learning on FPGA (2021)
+
+Methodology
+- Utilizes ZYNQ 7000 SoC to implement a CNN for plant disease detection. FPGA accelerates inference while the processing system handles control functions.
+
+Significance
+- Demonstrates the efficiency of FPGA-based systems in real-time plant disease detection, reducing latency compared to traditional processing platforms.
+
+Research Gaps
+- Limited to common plant diseases; broader datasets and more advanced neural networks could improve detection accuracy and generalization.
+
+Diseases
+- Leaf blight, powdery mildew, bacterial spot
+
+# Paper-4
+Title- Plant Disease Classification Using Edge AI on ZYNQ SoC (2020)
+
+Methodology
+- Deployed a machine learning model on ZYNQ SoC using edge AI techniques. The focus was on classifying diseases from plant leaf images.
+
+Significance
+- Provides a low-power, high-performance solution for real-time classification of plant diseases at the edge, minimizing the need for cloud computation.
+
+Research Gaps
+- Does not explore more complex plant diseases requiring multi-modal inputs (e.g., climate, soil data) to enhance decision-making
+  
+Diseases
+- Late blight, early blight, leaf curl virus
+
+# Paper-5
 Title
+
+Methodology
+
+Significance
+
+Research Gaps
+
+Diseases
