@@ -9,6 +9,12 @@ optimizing the image processing in MATLAB, the system will be
 integrated with the ZYNQ 7000 platform for enhanced performance,
 improving crop management.
 
+# Objectives
+The objective of this project, "Utilizing ZYNQ 7000 SOC for Automatic Plant Disease Detection," is:
+To detect potential diseases or stress in plant leaves at an early stage, using ZYNQ 7000  SoC 
+To provide actionable insights that help farmers optimize the use of water, fertilizers, and other resources, fostering efficient and sustainable farming practices.
+To contribute to increased crop yield and quality by promptly addressing leaf-level issues, thereby enhancing overall agricultural productivity for farmers.
+
 # Abstract
 Plant diseases are a serious threat to agricultural productivity since they can have an impact on 
 crop quality and quantity. Worldwide, millions of tons of crops are lost each year due to various 
@@ -27,6 +33,7 @@ the project, edge AI technology will be integrated, allowing the system to proce
 data directly on devices at the network's edge. This reduces the need for constant connectivity 
 to centralized servers, speeds up reaction times, and increases system resilience and 
 dependability in various field conditions.
+
 # Literature Survey
 # Paper-1
 Title- Automated Leaf Disease Detection Using ZYNQ FPGA with CNN Acceleration (2023)
