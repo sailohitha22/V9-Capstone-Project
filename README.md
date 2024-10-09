@@ -11,9 +11,12 @@ improving crop management.
 
 # Objectives
 The objective of this project, "Utilizing ZYNQ 7000 SOC for Automatic Plant Disease Detection," is:
--To detect potential diseases or stress in plant leaves at an early stage, using ZYNQ 7000  SoC 
--To provide actionable insights that help farmers optimize the use of water, fertilizers, and other resources, fostering efficient and sustainable farming practices.
--To contribute to increased crop yield and quality by promptly addressing leaf-level issues, thereby enhancing overall agricultural productivity for farmers.
+
+- To detect potential diseases or stress in plant leaves at an early stage, using ZYNQ 7000  SoC. 
+
+- To provide actionable insights that help farmers optimize the use of water, fertilizers, and other resources, fostering efficient and sustainable farming practices.
+
+- To contribute to increased crop yield and quality by promptly addressing leaf-level issues, thereby enhancing overall agricultural productivity for farmers.
 
 # Abstract
 Plant diseases are a serious threat to agricultural productivity since they can have an impact on 
@@ -96,12 +99,16 @@ Diseases
 - Late blight, early blight, leaf curl virus
 
 # Paper-5
-Title
+Title- FPGA-Based Smart Agriculture System for Plant Disease Monitoring (2019)
 
 Methodology
+- Developed an FPGA-based system using ZYNQ 7000 for real-time monitoring and early detection of plant diseases through image analysis and sensor data.
 
 Significance
+- Combines image processing and environmental sensors to create a more comprehensive disease detection system, offering scalability and faster response times in the field.
 
 Research Gaps
+- Lack of integration with deep learning algorithms; relies on simpler image processing techniques which may limit accuracy for more challenging plant diseases.
 
 Diseases
+- Rust, downy mildew, leaf spot
