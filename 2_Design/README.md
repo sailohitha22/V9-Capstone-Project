@@ -1,4 +1,5 @@
 # Design of the "Utilizing ZYNQ 7000 SOC for Automated Plant Disease Detection" Project
+# Modified title: ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies
 # High-Level Design:
 The high-level design focuses on the overall architecture and approach of the system:
 
@@ -8,6 +9,11 @@ The high-level design focuses on the overall architecture and approach of the sy
 - ZYNQ 7000 SoC: This platform is chosen for its robust parallel processing capabilities, allowing real-time analysis of high-resolution crop images.
 - Sensors and Cameras: High-resolution cameras are integrated to capture images, which are then processed by the system to detect diseases.
 - Modular Design: The system is designed with a modular approach, ensuring easy upgrades and integration of new algorithms or hardware without extensive redesigns.
+- Edge AI Integration: By incorporating edge AI technology, the system processes data 
+locally on the device, reducing reliance on cloud servers and ensuring rapid analysis 
+even in areas with limited connectivity. This integration also enhances data privacy and 
+system reliability in field conditions.
+
 # Low-Level Design:
 The low-level design outlines specific components and their interactions:
 
