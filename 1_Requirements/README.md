@@ -8,6 +8,10 @@
   The system should maintain accuracy across different environmental conditions (lighting, weather) and crop types.  
 - Scalability:
 The system needs to be scalable to monitor various crops and diseases, supporting both small farms and large-scale agricultural operations.
+- Comparative Analysis:
+Conduct comparative studies with traditional and AI-based methods to evaluate improvements in accuracy, processing speed, and resource 
+efficiency. 
+
 # Low-Level Requirements (LLR):
 
 - Algorithm Development: The project developed image segmentation and edge detection algorithms using MATLAB, such as Otsu’s method and K-means clustering.
