@@ -1,7 +1,7 @@
 # Previous title - Utilizing ZYNQ 7000 SOC for Automated Plant Disease Detection
 # Modified title - ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies
 
-### **High-Level Requirements (HLR)**
+### **High-Level Requirements (HLR):**
 
 1. **Early Disease Detection**  
    - The system should detect plant diseases at an early stage by identifying small changes in leaf patterns, color, or texture.
@@ -29,7 +29,7 @@
 
 ---
 
-### **Low-Level Requirements (LLR)**
+### **Low-Level Requirements (LLR):**
 
 1. **Build Detection Algorithms**  
    - Create and test methods like Otsu’s method, Canny edge detection, and K-means clustering to separate healthy and diseased areas.
@@ -57,7 +57,7 @@
 
 ---
 
-### **Non-Functional Requirements (NFR)**
+### **Non-Functional Requirements (NFR):**
 
 1. **Fast Response**  
    - The system should give results quickly without delays.
