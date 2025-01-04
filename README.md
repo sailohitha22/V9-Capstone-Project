@@ -1,41 +1,40 @@
 # Problem Statement
-Utilizing ZYNQ 7000 SOC for automated plant diesease detection
+ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies
 
 # Introduction
-Developing a real-time automated plant disease detection system using
-the ZYNQ 7000 SoC. The process started with MATLAB for image
-segmentation and edge detection to identify crop disease patterns. After
-optimizing the image processing in MATLAB, the system will be
-integrated with the ZYNQ 7000 platform for enhanced performance,
-improving crop management.
+The project aims to develop a real-time automated plant disease detection system using the ZYNQ 7000 SoC. Initially, MATLAB was used for image segmentation, edge detection, and applying algorithms like Otsu’s method and K-means clustering to identify disease patterns in crops. Once image processing was successfully completed in MATLAB, the next phase involves integrating the optimized algorithms into the ZYNQ 7000 platform. This integration will leverage the platform’s real-time processing capabilities, enabling faster disease detection and improving crop management. The system will be tested in agricultural environments, ensuring scalability for various crops, and compared with traditional methods to evaluate performance. The overall goal is to create a cost-effective and efficient solution for precision agriculture, providing farmers with timely disease detection and decision support.
 
 # Objectives
-The objective of this project, "Utilizing ZYNQ 7000 SOC for Automatic Plant Disease Detection," is:
+**Image and Video Processing:** Leverage the ZYNQ 7000 SoC to process plant leaf images and videos, focusing on edge detection and real-time analysis to identify disease patterns early.
 
-- To detect potential diseases or stress in plant leaves at an early stage, using ZYNQ 7000  SoC. 
+**AI-Based Classification:** Develop external AI models to classify plant diseases based on processed data, improving the accuracy and efficiency of disease detection.
 
-- To provide actionable insights that help farmers optimize the use of water, fertilizers, and other resources, fostering efficient and sustainable farming practices.
+**System Optimization:** Ensure real-time performance and system robustness under varying agricultural conditions, making it adaptable and effective in diverse farming environments.
 
-- To contribute to increased crop yield and quality by promptly addressing leaf-level issues, thereby enhancing overall agricultural productivity for farmers.
+**Comparative Analysis:** Compare the image processing performance of the ZYNQ 7000 SoC with other platforms, evaluating its efficiency in terms of speed, accuracy, and resource utilization.
+
+**Sustainable Agriculture:** Provide actionable insights that help farmers optimize the use of water, fertilizers, and other resources, fostering sustainable farming practices.
+
+**Agricultural Productivity:** Improve crop yield and quality by detecting plant diseases at an early stage and addressing leaf-level issues, thus enhancing overall productivity.
+
+# Goals
+**Main Goals:**
+
+- Real-Time Disease Detection: Achieve accurate and timely detection of plant diseases to enable prompt intervention and minimize crop loss.
+- Scalable Agricultural Solution: Develop a cost-effective, scalable system that can be deployed in various agricultural settings, from small farms to large-scale operations.
+
+**Additional Goals:**
+
+- Expand the system's capabilities to detect other agricultural issues such as pests or nutrient deficiencies.
+
+- Validate the system's effectiveness through field tests, ensuring practical usability and continuous refinement.
+
+- Create a user-friendly interface to assist farmers in making informed decisions about crop management.
 
 # Abstract
-Plant diseases are a serious threat to agricultural productivity since they can have an impact on 
-crop quality and quantity. Worldwide, millions of tons of crops are lost each year due to various 
-plant diseases, leading to economic losses and food security concerns. Traditional methods for 
-managing plant diseases include chemical treatments, crop rotation, and the use of disease resistant crop varieties. However, these measures have limitations, such as environmental 
-impact, the emergence of resistant pathogens, and the time required for developing resistant 
-varieties. To mitigate these losses, a real-time, computer vision-based system for detecting 
-plant illnesses is proposed. This system aims to accurately identify two forms of diseases in 
-plant leaves under various illumination conditions, leveraging the Xilinx ZYNQ SoC FPGA 
-for implementation. The FPGA's low latency performance and parallel processing capabilities 
-make it ideal for real-time applications, enabling rapid processing of high-resolution images 
-and accurate disease detection, thus ensuring timely intervention and minimizing crop loss. 
-The computational complexity and time demand of computer vision applications are addressed 
-by the FPGA's powerful parallel processing and low latency performance. To further enhance 
-the project, edge AI technology will be integrated, allowing the system to process and analyse
-data directly on devices at the network's edge. This reduces the need for constant connectivity 
-to centralized servers, speeds up reaction times, and increases system resilience and 
-dependability in various field conditions.
+Plant diseases pose a significant threat to agricultural productivity, leading to crop loss and economic challenges. Traditional management methods, like chemical treatments and disease-resistant crops, have limitations such as environmental impact and resistance issues. To address these, a real-time computer vision system is proposed, utilizing the Xilinx ZYNQ SoC FPGA for fast processing of high-resolution images. This enables accurate disease detection and timely intervention, reducing crop loss.
+
+The system integrates edge AI for local data processing, enhancing response times and reliability in field conditions. Comparative studies will assess the benefits of FPGA-based solutions, focusing on accuracy, cost-effectiveness, and efficiency. This approach offers a practical solution for boosting agricultural productivity and advancing smart farming practices
 
 # Literature Survey
 # Paper-1
