@@ -1,7 +1,5 @@
-# Design of the "Utilizing ZYNQ 7000 SOC for Automated Plant Disease Detection" Project
-# Modified title - ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies
-
-## **High-Level Design**
+# Design of the "Utilizing ZYNQ 7000 SoC for Automated Plant Disease Detection" and "ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies"
+## **High-Level Design:**
 
 ### **System Overview**  
 The ZYNQ-Disease Detect project leverages the ZYNQ 7000 SoC to enable real-time plant disease detection using advanced image processing techniques and AI-based classification. The system is designed to process plant leaf images, identify diseased regions, and provide actionable insights to farmers through a scalable, edge-based architecture.
@@ -34,7 +32,7 @@ The ZYNQ-Disease Detect project leverages the ZYNQ 7000 SoC to enable real-time 
 
 ---
 
-## **Low-Level Design**
+## **Low-Level Design:**
 
 ### **1. Image Acquisition Module**  
 - **Hardware:**  
