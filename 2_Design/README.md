@@ -1,24 +1,82 @@
 # Design of the "Utilizing ZYNQ 7000 SOC for Automated Plant Disease Detection" Project
-# Modified title: ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies
-# High-Level Design:
-The high-level design focuses on the overall architecture and approach of the system:
+# Modified title - ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies
 
-- System Overview: The project integrates advanced image processing algorithms with real-time processing capabilities using the ZYNQ 7000 SoC (System on Chip). The key goal is to detect plant diseases by analyzing leaf patterns and identifying early symptoms of disease.
-- Key Components:
-- Image Processing: MATLAB is used to develop and test algorithms like Otsu’s method and K-means clustering for edge detection and segmentation of diseased areas on leaves.
-- ZYNQ 7000 SoC: This platform is chosen for its robust parallel processing capabilities, allowing real-time analysis of high-resolution crop images.
-- Sensors and Cameras: High-resolution cameras are integrated to capture images, which are then processed by the system to detect diseases.
-- Modular Design: The system is designed with a modular approach, ensuring easy upgrades and integration of new algorithms or hardware without extensive redesigns.
-- Edge AI Integration: By incorporating edge AI technology, the system processes data 
-locally on the device, reducing reliance on cloud servers and ensuring rapid analysis 
-even in areas with limited connectivity. This integration also enhances data privacy and 
-system reliability in field conditions.
+## **High-Level Design**
 
-# Low-Level Design:
-The low-level design outlines specific components and their interactions:
+### **System Overview**  
+The ZYNQ-Disease Detect project leverages the ZYNQ 7000 SoC to enable real-time plant disease detection using advanced image processing techniques and AI-based classification. The system is designed to process plant leaf images, identify diseased regions, and provide actionable insights to farmers through a scalable, edge-based architecture.
 
-- MATLAB Algorithm Development:
-- Edge Detection: Otsu’s method is used to identify the boundaries of diseased areas by applying thresholding techniques.
-- K-means Clustering: This technique segments images based on color intensities, isolating affected regions of the leaves.
-- System Integration: After developing and testing the algorithms in MATLAB, they are ported to the ZYNQ 7000 SoC, where they are optimized for real-time execution.
-- Real-Time Processing: The system ensures that image processing occurs within a time frame of under 1 second, providing rapid feedback to farmers for timely intervention.
+### **Key Components**  
+1. **Image Acquisition**  
+   - Use high-resolution cameras or sensors to capture images and videos of plant leaves under various environmental conditions.
+
+2. **Image Processing Algorithms**  
+   - **Edge Detection:** Utilize techniques like Canny and Sobel edge detection for identifying boundaries of diseased areas.  
+   - **Segmentation:** Employ Otsu’s method and K-means clustering to separate healthy and diseased regions.
+
+3. **ZYNQ 7000 SoC Integration**  
+   - ARM processors manage pre-processing, interfacing, and communication tasks.  
+   - FPGA fabric executes computationally intensive image processing and classification algorithms in real time.
+
+4. **AI Integration**  
+   - Implement convolutional neural networks (CNNs) or other AI models for classifying specific diseases.  
+   - Optimize AI models for edge inference to minimize latency and energy consumption.
+
+5. **System Feedback**  
+   - Provide immediate feedback through visual indicators (e.g., LED alerts) or digital interfaces (e.g., mobile apps).
+
+6. **Comparative Analysis Framework**  
+   - Compare edge-based solutions with cloud processing for performance, accuracy, and feasibility.
+
+### **System Architecture**  
+- Modular design allowing easy upgrades of hardware and algorithms.  
+- Localized processing on ZYNQ 7000 SoC ensures low latency and independence from internet connectivity.
+
+---
+
+## **Low-Level Design**
+
+### **1. Image Acquisition Module**  
+- **Hardware:**  
+   - High-resolution camera with adjustable settings for different lighting conditions.  
+- **Software:**  
+   - Camera drivers interfaced with ARM cores on ZYNQ SoC for data capture and transfer.
+
+### **2. Image Processing on ZYNQ SoC**  
+- **Edge Detection:**  
+   - Implement Sobel and Canny edge detection using MATLAB and port the algorithms to FPGA fabric for acceleration.  
+   - Use DMA (Direct Memory Access) for transferring image data between ARM and FPGA cores.  
+- **Segmentation:**  
+   - Apply Otsu’s method for thresholding.  
+   - Perform K-means clustering to isolate diseased leaf areas based on color intensity.
+
+### **3. AI Classification**  
+- **Model Development:**  
+   - Train CNN models on labeled datasets of healthy and diseased leaves.  
+   - Optimize models for edge inference using quantization and pruning techniques.  
+- **Hardware Deployment:**  
+   - Deploy AI inference engine on FPGA for accelerated classification.
+
+### **4. Real-Time Feedback**  
+- **Display Unit:**  
+   - Use LEDs or on-screen indicators to show disease detection results.  
+- **Mobile/Web Integration:**  
+   - Design a user-friendly app or web interface for farmers to visualize results and recommendations.
+
+### **5. Comparative Analysis Framework**  
+- **Data Logging:**  
+   - Log real-time performance metrics such as processing time, power consumption, and classification accuracy.  
+- **Evaluation:**  
+   - Compare metrics from ZYNQ-based processing with cloud-based or traditional methods.
+
+### **6. Optimization & Testing**  
+- **Hardware:**  
+   - Optimize FPGA resource utilization to balance performance and power efficiency.  
+- **Field Testing:**  
+   - Conduct trials in varied agricultural settings to validate system reliability and usability.
+
+### **7. System Scalability**  
+- **Design Considerations:**  
+   - Modular architecture to support additional diagnostic features like pest or nutrient deficiency detection.  
+- **Future Integration:**  
+   - Plan for interfacing with other smart agriculture tools or platforms.
