@@ -17,7 +17,7 @@
 ---
 # Data Generation Using Zynq 7000 - Verilog Modules
 
-This project uses the Zynq 7000 board for data generation. Two key Verilog modules, `mux` and `dataGen`, are responsible for generating and managing data signals. Below is an easy-to-understand explanation of their functionality.
+This project uses the Zynq 7000 board for data generation. Two key Verilog modules, `mux` and `dataGen`, are responsible for generating and managing data signals. Below is an explanation of their functionality.
 
 ---
 ## 1. `mux` Module
