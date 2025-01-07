@@ -1,4 +1,4 @@
-# Design of the "Utilizing ZYNQ 7000 SoC for Automated Plant Disease Detection" and "ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies"
+# Design of the "ZYNQ-Disease Detect: Precision Agriculture Solutions and Comparative Studies with AI Technologies"
 ## **High-Level Design:**
 
 ### **System Overview**  
