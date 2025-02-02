@@ -3,6 +3,7 @@
 ## Purpose
 This project utilizes Convolutional Neural Networks (CNN) to classify plant diseases in images. It automatically detects and categorizes plant diseases such as **Powdery Mildew**, **Rust**, and **Healthy** based on images of plant leaves. This tool can be used in agricultural fields to identify plant diseases early, helping in better crop management and disease prevention.
 
+## Running the Plant Disease Detection System on Google Colab
 ## How It Works
 
 ### 1. Dataset Preparation:
