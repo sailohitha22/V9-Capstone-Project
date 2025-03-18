@@ -2,9 +2,9 @@
 
 | Test ID  | Description                                                    | Exp I/P                                        | Exp O/P                                       | Actual O/P         | Type of Test  |
 |----------|----------------------------------------------------------------|------------------------------------------------|------------------------------------------------|--------------------|---------------|
-| HLT-001  | Test real-time disease detection under varying light conditions | Leaf images with different lighting conditions | Accurate disease detection                     | ---- | Functional    |
-| HLT-002  | Measure system processing time for real-time disease detection  | High-resolution leaf images                    | Process within 1 second per image              | ----     | Performance   |
-| HLT-003  | Validate detection across multiple crops (tomato, eggplant, etc.) | Leaf images of various crops                   | Disease identified in selected crop            | ----         | Functional    |
+| HLT-001  | Test real-time edge detection under varying light conditions | Leaf images with different lighting conditions | Accurate disease detection                     | Similar to expected | Functional    |
+| HLT-002  | Measure system processing time for real-time disease detection  | High-resolution leaf images                    | Process within 1 second per image              |  As expected     | Performance   |
+| HLT-003  | Validate detection across multiple crops (tomato, eggplant, etc.) | Leaf images of various crops                   | Disease identified in selected crop            |  As expected      | Functional    |
 
 ### Low-Level Test Plan
 
