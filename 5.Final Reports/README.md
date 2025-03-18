@@ -8,4 +8,4 @@
 
 # Capstone-Final:
   
-- [Phase-2][Reveiw-1](https://drive.google.com/drive/folders/1r1LICALciicXkbRTLAOzJUoh3myzfue1?usp=sharing)
+- [Phase-2](https://drive.google.com/drive/folders/1r1LICALciicXkbRTLAOzJUoh3myzfue1?usp=sharing)
